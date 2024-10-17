@@ -4,6 +4,7 @@ import Badge from "@/components/Badge.astro"
 import LinkedInIcon from "@/components/icons/LinkedIn.astro"
 import MailIcon from "@/components/icons/Mail.astro"
 import SocialPill from "@/components/SocialPill.astro"
+import GitHub from "./icons/GitHub.astro"
 ---
 
 <div class="max-w-xl">
@@ -31,7 +32,7 @@ import SocialPill from "@/components/SocialPill.astro"
     class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
   >
     +6 años de experiencia. <strong>Ingeniero de Software.</strong>
-    Especializado en el backend, ingenieria de datos y automatizar procesos escalables y eficientes.
+    Especializado en Backend, Ingenieria de Datos y automatización de procesos escalables y eficientes.
   </p>
   <nav class="flex flex-wrap gap-4 mt-8">
     <SocialPill href="mailto:alejandrodelmedico@gmail.com">
@@ -41,6 +42,10 @@ import SocialPill from "@/components/SocialPill.astro"
     <SocialPill href="https://linkedin.com/in/alejandrodelmedico">
       <LinkedInIcon class="size-4" />
       LinkedIn
+    </SocialPill>
+    <SocialPill href="https://github.com/aledelme">
+      <GitHub class="size-4" />
+      GitHub
     </SocialPill>
   </nav>
 </div>
