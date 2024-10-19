@@ -1,0 +1,21 @@
+---
+// import { languages } from '../i18n/ui';
+import { getLangFromUrl } from "@/i18n/utils";
+import FlagSpain from "./icons/FlagSpain.astro";
+import FlagUK from "./icons/FlagUK.astro";
+import { defaultLang } from "@/i18n/ui";
+
+const lang = getLangFromUrl(Astro.url)
+
+---
+<div class="hover:scale-125 transition">
+    {defaultLang === lang ? 
+        <a href={`/en`}>
+            <FlagUK/> 
+        </a>
+    : 
+        <a href={`/es`}>
+            <FlagSpain/>
+        </a>
+    }
+</div>

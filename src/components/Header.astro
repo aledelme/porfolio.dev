@@ -1,4 +1,5 @@
 ---
+import LanguagePicker from "./LanguagePicker.astro"
 import ThemeToggle from "./ThemeToggle.astro"
 
 const navItems = [
@@ -47,7 +48,10 @@ const navItems = [
         </a>
       ))
     }
-    <ThemeToggle />
+    <div class="flex flex-row items-center gap-2 px-5">
+      <ThemeToggle />
+      <LanguagePicker/>
+    </div>
   </nav>
 </header>
 
