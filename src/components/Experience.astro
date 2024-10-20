@@ -1,28 +1,28 @@
 ---
+import { getLangFromUrl, useTranslations } from "@/i18n/utils"
 import ExperienceItem from "./ExperienceItem.astro"
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+
 const EXPERIENCE = [
   {
-    date: "Febrero 2022",
-    title: "Desarrollador Senior",
+    date: `${t('month.february')} 2022`,
+    title: `${t('experience.iberalbion.title')}`,
     company: "Iberalbión SL (Zaragoza)",
-    description:
-      `Encargado de liderar el desarrollo, mantenimiento y mejora de aplicativo web BPM desde cero.
-      Principalmente me encargo de labores del Backend y la base de datos SQL. `,
+    description: `${t('experience.iberalbion.summary')}`,
   },
   {
-    date: "Marzo 2021",
-    title: "Consultor VBA Macros Avanzado",
+    date: `${t('month.march')} 2021`,
+    title: `${t('experience.freelancer.title')}`,
     company: "Freelancer (Madrid)",
-    description:
-      `Breve periodo en el que hacia captación de clientes, venta de proyectos, toma de requisitos, desarrollo de producto y fidelización.`,
+    description: `${t('experience.freelancer.summary')}`,
   },
   {
-    date: "Octubre 2018",
+    date: `${t('month.october')} 2018`,
     title: "Software Analysts",
     company: "Banco Santander (Madrid)",
-    description:
-      `Responsable de estandarizar, automatizar y documentar todo el proceso de despliegue a producción en todo el departamento. 
-      Encargado de migración de datos, desarrollo de evolutivos, resolución de incidencias y mentorizar nuevas incorporaciones.`,
+    description: `${t('experience.santander.summary')}`,
   },
 ]
 ---

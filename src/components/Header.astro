@@ -1,32 +1,36 @@
 ---
+import { getLangFromUrl, useTranslations } from "@/i18n/utils"
 import LanguagePicker from "./LanguagePicker.astro"
 import ThemeToggle from "./ThemeToggle.astro"
 
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+
 const navItems = [
   {
-    title: "Experiencia",
-    label: "experiencia",
-    url: "/#experiencia",
+    title: t('nav.experience'),
+    label: "experience",
+    url: `#experience`,
   },
   // {
-  //   title: "Proyectos",
-  //   label: "proyectos",
-  //   url: "/#proyectos",
+  //   title: t('nav.projects'),
+  //   label: "projects",
+  //   url: "#projects",
   // },
   {
-    title: "Sobre mí",
-    label: "sobre-mi",
-    url: "/#sobre-mi",
+    title: t('nav.about'),
+    label: "about",
+    url: `#about`,
   },
   {
-    title: "Contacto",
-    label: "contacto",
+    title: t('nav.contact'),
+    label: "contact",
     url: "mailto:alejandrodelmedico@gmail.com",
   },
   {
-    title: "CV",
+    title: t('nav.cv'),
     label: "cv",
-    url: "CV Alejandro Del Medico.pdf"
+    url: `CV Alejandro Del Medico - ${lang.toUpperCase()}.pdf`
   },
 ]
 ---
