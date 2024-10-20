@@ -25,7 +25,7 @@ export const es = {
     // About Me
     'about.title': 'Sobre mí',
 
-    'about.p.1.1': 'Me llamo Alejandro. Empecé estudianto ingeniería mecánica, pero supe que lo mío era programar cuando vi la facilidad con la que arreglaba los programas de mis compañeros de clase. Actualmente soy',
+    'about.p.1.1': 'Me llamo Alejandro. Graduado en ingeniería mecánica, pero supe que lo mío era programar cuando vi la facilidad con la que arreglaba los programas de mis compañeros de clase. Actualmente soy',
     'about.strong.1': 'desarrollador backend principal',
     'about.p.1.2': 'de mi equipo, donde propongo mejoras en la escalabilidad y seguridad de los procesos.',
     

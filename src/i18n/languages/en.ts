@@ -25,7 +25,7 @@ export const en = {
     // About Me
     'about.title': 'About me',
 
-    'about.p.1.1': "My name is Alejandro. I started studying mechanical engineering, but I knew that programming was my thing when I saw how easily I could fix my classmates' programs. I am currently",
+    'about.p.1.1': "My name is Alejandro. I'm graduated in mechanical engineering, but I realized that programming was my thing when I saw how easily I could fix my classmates' programs. I am currently",
     'about.strong.1': 'lead backend developer',
     'about.p.1.2': 'on my team, where I propose improvements in the scalability and security of processes.',
     
