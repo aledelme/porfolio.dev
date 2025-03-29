@@ -1,5 +1,6 @@
 export const en = {
     // Months
+    'month.january': 'January',
     'month.february': 'February',
     'month.march': 'March',
     'month.october': 'October',
@@ -17,6 +18,8 @@ export const en = {
     'hero.callme': 'Contact me',
     // Experience
     'experience.title': 'Work experience',
+    'experience.itaca.title': 'Senior Backend Developer',
+    'experience.itaca.summary': 'Responsible for designing and developing web application architectures and APIs. Development, maintenance, and monitoring of SQL databases.',
     'experience.iberalbion.title': 'Senior Developer',
     'experience.iberalbion.summary': 'Responsible for leading the development, maintenance and improvement of a BPM web application from scratch. I am mainly in charge of Backend and SQL database tasks.',
     'experience.freelancer.title': 'Advanced VBA Macros Consultant',

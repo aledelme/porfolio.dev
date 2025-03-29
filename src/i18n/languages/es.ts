@@ -1,5 +1,6 @@
 export const es = {
     // Months
+    'month.january': 'Enero',
     'month.february': 'Febrero',
     'month.march': 'Marzo',
     'month.october': 'Octubre',
@@ -17,6 +18,8 @@ export const es = {
     'hero.callme': 'Contáctame',
     // Experience
     'experience.title': 'Experiencia laboral',
+    'experience.itaca.title': 'Desarrollador Backend Senior',
+    'experience.itaca.summary': 'Responsable de diseñar y desarrollar las arquitecturas de aplicaciones web API. Desarrollo, mantenimiento y monitoreo de bases de datos SQL.',
     'experience.iberalbion.title': 'Desarrollador Senior',
     'experience.iberalbion.summary': 'Encargado de liderar el desarrollo, mantenimiento y mejora de aplicativo web BPM desde cero. Principalmente me encargo de labores del Backend y la base de datos SQL.',
     'experience.freelancer.title': 'Consultor VBA Macros Avanzado',
